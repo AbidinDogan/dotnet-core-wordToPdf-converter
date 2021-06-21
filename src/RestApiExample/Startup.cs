@@ -31,7 +31,7 @@ namespace RestApiExample
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v21", new OpenApiInfo { Title = "RestApiAbidinExample", Version = "v10" });
+                c.SwaggerDoc("v21", new OpenApiInfo { Title = "ConvertionExample", Version = "v10" });
             });
             services.AddScoped<IConverterService, ConverterService>();
         }
