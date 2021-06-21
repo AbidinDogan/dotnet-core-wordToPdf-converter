@@ -20,3 +20,5 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "RestApiExample.dll"]
+
+#RUN apt-get update && apt-get -y install libreoffice
