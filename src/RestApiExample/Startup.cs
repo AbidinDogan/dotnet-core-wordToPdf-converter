@@ -11,6 +11,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.OpenApi.Models;
+using RestApiExample.Interfaces;
+using RestApiExample.Services;
 
 namespace RestApiExample
 {
@@ -31,6 +33,7 @@ namespace RestApiExample
             {
                 c.SwaggerDoc("v21", new OpenApiInfo { Title = "RestApiAbidinExample", Version = "v10" });
             });
+            services.AddScoped<IConverterService, ConverterService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
