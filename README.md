@@ -2,7 +2,7 @@
 # Word to pdf with dotnet core
 
 Created for document conversion using dotnet core and docker support. 
-Used a [resource](https://github.com/smartinmedia/Net-Core-DocX-HTML-To-PDF-Converter.git) to achive that.
+Used a [resource](https://github.com/smartinmedia/Net-Core-DocX-HTML-To-PDF-Converter.git) to achieve that.
 
 ## Requirements
  - To use as docker container, you need to install Docker desktop from [here](https://www.docker.com/products/docker-desktop)
